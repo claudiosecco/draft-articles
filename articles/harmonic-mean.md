@@ -64,3 +64,20 @@ This is because if you are weighting the average per *revenue*, and *revenue* is
 That said:
 
 <img src="https://latex.codecogs.com/png.latex?\bg_white&space;\large&space;\frac{1}{0.258\cdot\frac{1}{500}&plus;0.577\cdot\frac{1}{800}&plus;0.165\cdot\frac{1}{200}&space;}=&space;485" title="\large \frac{1}{0.258\cdot\frac{1}{500}+0.577\cdot\frac{1}{800}+0.165\cdot\frac{1}{200} }= 485" />
+
+### Right way #2: Weighted Arithmetic Mean
+I'm not saying here that you can't use arithmetic mean. I'm just saying that you can use it *if* you are able to weight it by the proper term: the ratio's **denominator**. In the present case, it happens to be *invoices quantity*.
+
+| Client | # invoices | weight  | $ / invoice |
+| :----: | ---------: | -----:  | ----------: |
+| A      | 25         | 25%     | 500         |
+| B      | 35         | 35%     | 800         |
+| C      | 40         | 40%     | 200         |
+| Total  | 100        | 100%    |
+
+<img src="https://latex.codecogs.com/png.latex?\bg_white&space;\large&space;0.25\cdot500&space;&plus;&space;0.35\cdot800&space;&plus;&space;0.40\cdot200=485" title="\large 0.25\cdot500 + 0.35\cdot800 + 0.40\cdot200=485" />
+
+### Right way #3: Brute Force
+You surely can sum all revenue and all invoices quantity and divide one by the other. In many situations, this kind of approach may be considered [brute force](http://www.catb.org/~esr/jargon/html/B/brute-force.html).
+
+<img src="https://latex.codecogs.com/png.latex?\bg_white&space;\large&space;\frac{12.500&plus;28.000&plus;8.000}{25&plus;35&plus;40}=485" title="\large \frac{12.500+28.000+8.000}{25+35+40}=485" />
