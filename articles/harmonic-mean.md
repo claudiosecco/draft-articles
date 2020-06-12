@@ -81,3 +81,8 @@ I'm not saying here that you can't use arithmetic mean. I'm just saying that you
 You surely can sum all revenue and all invoices quantity and divide one by the other. In many situations, this kind of approach may be considered [brute force](http://www.catb.org/~esr/jargon/html/B/brute-force.html).
 
 <img src="https://latex.codecogs.com/png.latex?\bg_white&space;\large&space;\frac{12.500&plus;28.000&plus;8.000}{25&plus;35&plus;40}=485" title="\large \frac{12.500+28.000+8.000}{25+35+40}=485" />
+
+## Conclusion
+It was shown a simple way to choose between the use of arithmetic or harmonic means.
+
+In summary: if the mean are weighted by the numerator unit, you should prefer the harmonic mean over the arithmetic mean.
