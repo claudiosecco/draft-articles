@@ -10,14 +10,14 @@ I do not intend to write an academic article on the statistical subject. If you 
 ### Arithmetic mean  
 > "... arithmetic mean, or simply the *mean* or *average*,  is the sum of a collection of numbers divided by the count of numbers in the collection."  
 > "... consider the monthly salary of 10 employees of a firm: 2500, 2700, 2400, 2300, 2550, 2650, 2750, 2450, 2600, 2400. The arithmetic mean is
-> <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/011f2bc6eee24c97e784cc28aa7d9581ca564ee9" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.838ex; width:81.293ex; height:5.176ex;" alt="{\frac {2500+2700+2400+2300+2550+2650+2750+2450+2600+2400}{10}}=2530.">"  
-(https://en.wikipedia.org/wiki/Arithmetic_mean)
+> <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/011f2bc6eee24c97e784cc28aa7d9581ca564ee9" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.838ex; width:81.293ex; height:5.176ex;" alt="{\frac {2500+2700+2400+2300+2550+2650+2750+2450+2600+2400}{10}}=2530">  
+>"(https://en.wikipedia.org/wiki/Arithmetic_mean)
 
 ### Harmonic Mean
 > "The harmonic mean can be expressed as the reciprocal of the arithmetic mean of the reciprocals of the given set of observations. As a simple example, the harmonic mean of 1, 4, and 4 is  
 > <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eca5906ddf61080e790c0d4df33f47e12da7d019" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.338ex; width:49.548ex; height:7.676ex;" alt="{\displaystyle \left({\frac {1^{-1}+4^{-1}+4^{-1}}{3}}\right)^{-1}={\frac {3}{{\frac {1}{1}}+{\frac {1}{4}}+{\frac {1}{4}}}}={\frac {3}{1.5}}=2\,.}">"  
 >  
-(https://en.wikipedia.org/wiki/Harmonic_mean)
+>(https://en.wikipedia.org/wiki/Harmonic_mean)
 
 ## Case: $ per invoice
 Consider an enterprise that has three clients:
